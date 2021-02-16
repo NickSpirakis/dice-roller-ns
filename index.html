@@ -5,7 +5,6 @@
     class:   Software Engineering 
     Description: Nick's Dice Roller application.
 -->
-
 <head>
     <meta charset="utf-8">
     <p style="text-align: center; background: orange; font-size: 25px;">DICE ROLLER!</p>
@@ -13,19 +12,18 @@
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
 </head>
-
+<!--This sets dice numbers to be on the right. It also rolls dice when you load the page.-->
 <body style="text-align: right;"onload="rollDice()">
     <div>
-
+<!--these are the dice-->
         <img src="./images/1.png">
         <img src="./images/2.png">
         <img src="./images/3.png">
         <img src="./images/4.png">
         <img src="./images/5.png">
-
-
     </div>
-
+<!--this is the button. added autofocus so you can hit Enter instead of clicking button-->
     <button type="button" onclick="rollDice()" autofocus>Roll Dice</button> 
+    <!--this is the link to help-->
     <a href="help.html">Help</a>
 </body>
